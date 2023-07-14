@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/reset.css">
+    <link rel="stylesheet" href=./Styles/globalStyles.css>
+    <link rel="stylesheet" href=./Styles/index.css>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./Imgs/temperature-full-solid.svg" type="image/x-icon">
+    <title>Weather api</title>
+</head>
+<body>
+
+    <main class="container">
+        <section class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </section>
+    
+        <section class="not-found">
+            <img src="Imgs/404.png">
+            <p>Oops! Invalid location :/</p>
+        </section>
+    
+        <section class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </section>
+    
+        <section class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://kit.fontawesome.com/08a7b213d9.js" crossorigin="anonymous"></script>
+    <script src="./Scripts/index.js"></script>
+</body>
+</html>
